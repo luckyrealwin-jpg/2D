@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App Download</title>
+    <style>
+        /* နောက်ခံပုံအပြည့်ထည့်ရန် */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Pyidaungsu', 'Myanmar3', sans-serif;
+            background: url('images/your-background-image.jpg') no-repeat center center fixed;
+            background-size: cover; /* ပုံအပြည့်ဖော်ရန် */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Download section style */
+        .download-container {
+            background: rgba(255, 255, 255, 0.9); /* ဖြူဖြူတွတ်တွတ်မဖြစ်အောင် */
+            padding: 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            max-width: 500px;
+            width: 90%;
+        }
+
+        /* Download button style */
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            color: white;
+            padding: 15px 40px;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="download-container">
+        <h1>📦 ကျွန်တော့် App ကိုရယူပါ</h1>
+        <p>App ကို ဒေါင်းလုဒ်ရယူပြီး စမ်းသုံးကြည့်ပါ</p>
+        
+        <!-- Download Button -->
+        <a href="https://github.com/your-username/your-repo/releases/download/v1.0.0/your-app.exe" class="download-btn">
+            ⬇️ ဒေါင်းလုဒ်ရယူရန်
+        </a>
+        
+        <p style="margin-top: 15px; font-size: 14px; color: #666;">
+            File size: 2.1 MB • Version: 1.0.0
+        </p>
+    </div>
+</body>
+</html>
